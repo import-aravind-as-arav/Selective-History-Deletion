@@ -1,7 +1,7 @@
 import sqlite3
 
 
-conn=sqlite3.connect('C:/Users/arav_/AppData/Local/BraveSoftware/Brave-Browser/User Data/Default/History')
+conn=sqlite3.connect('C:/Users/*username*/AppData/Local/BraveSoftware/Brave-Browser/User Data/Default/History')
 c=conn.cursor()
 
 web=str(input("Enter the website: "))
